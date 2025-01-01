@@ -1,0 +1,19 @@
+[package]
+name = "mikufans-proto-intl"
+version = "3.17.3"
+edition = "2021"
+rust-version = "1.70"   # same with tonic
+
+# === Publication info ===
+authors = ["Hantong Chen <cxwdyx620@gmail.com>"]
+categories = ["data-structures"]
+description = "gRPC APIs for Mikufans (Intl)"
+keywords = ["mikufans"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/cxw620/mikufans-proto-intl"
+
+[dependencies]
+prost = "0.13"
+prost-types = "0.13"
+tonic = { version = "0.12", default-features = false, features = ["codegen", "prost"] }
