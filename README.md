@@ -25,3 +25,5 @@ The official version is actually `3.17.0`, with *innerVer* `3170003`.
   Though patch version does not change, there may still be some changes
   in the content comparing with `3170000`, so we have to take `0003` as
   the crate patch version but not `0`.
+
+For `3.17.4+build.17106976`, the first release has some problems, so we have to increase the patch version to `4`.
